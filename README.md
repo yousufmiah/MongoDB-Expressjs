@@ -1,7 +1,7 @@
 # MongoDB-Expressjs
 
 ## Basic Setup Server Side
-````
+```javaScript
 const express = require("express");
 const cors = require("cors");
 const { MongoClient, ServerApiVersion, ObjectId } = require("mongodb");
@@ -50,4 +50,4 @@ app.listen(port, () => {
   console.log(`NR Computers listening on port ${port}`);
 });
 
-````
+```
